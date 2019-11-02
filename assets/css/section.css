@@ -1,0 +1,60 @@
+.bg-about{
+  background: #373B44;  /* fallback for old browsers */
+
+}
+
+.btn-floating.halfway-right {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+
+
+
+
+/* Copy the classes below to get a premuim like MDB buttons (recreated) */
+.btn-rounded{ 
+  border-radius: 24px;
+}
+.btn-floating {
+  width: 49px;
+  height: 49px;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 20px;
+  line-height: 2.00;
+  border-radius: 30px;
+}
+.btn-large {
+
+  border-radius: 70px!important;
+}
+
+.btn-shadow{
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-shadow:hover{
+  box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+  outline: 0;
+}
+
+
+
+.error-icon{
+  color: #FF4081!important;
+}
+.valid-icon{
+  color: #4CAF50!important;
+}
+
+.error{
+  color: #FF4081!important;
+}
+
+
+.point{
+  cursor: pointer;
+}

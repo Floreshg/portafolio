@@ -1,0 +1,79 @@
+.bg-header {
+  background: #2193b0;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #6dd5ed, #2193b0);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #6dd5ed, #2193b0);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-header1 {
+  background: #bdc3c7;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #2c3e50, #bdc3c7);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.bg-header2 {
+  background: #BBD2C5;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #292E49, #536976, #BBD2C5);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #292E49, #536976, #BBD2C5);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.bg-header3 {
+  background: #16222A;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #3A6073, #16222A);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #3A6073, #16222A);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+header{
+  background: url(../img/fondo3.jpg)!important;
+}
+
+.bg-img{
+  display: block;
+  text-align: center;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+
+  
+}
+
+
+
+/* materialice eliminando */
+
+.carousel {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: auto;
+  -webkit-perspective: 500px;
+  perspective: none;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-origin: 0% 50%;
+  transform-origin: 0% 50%;
+}
+
+.carousel .carousel-item {
+  visibility: visible;
+  width: inherit;
+  height: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+}

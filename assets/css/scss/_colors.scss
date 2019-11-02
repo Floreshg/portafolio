@@ -1,0 +1,35 @@
+/* colors text*/
+
+$primary:#007bff!important;
+$secondary: #6c757d!important;
+$success: #28a745!important;
+$danger: #dc3545!important;
+$warning:#ffc107!important;
+$info: #17a2b8!important;
+.text-primary {
+  color:$primary ;
+}
+
+.text-secondary {
+  color:$secondary;
+}
+
+.text-success {
+  color: $success;
+}
+
+.text-danger {
+  color:$danger; 
+}
+
+.text-warning {
+  color: $warning;
+}
+
+.text-info {
+  color:$info;
+}
+
+.grey-text.text-darken-4 {
+  color: #212121 !important;
+}

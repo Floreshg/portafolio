@@ -1,0 +1,13 @@
+svg g path.icon-svg {
+  -webkit-transition: .4s ease-in;
+  -o-transition: .4s ease-in;
+  transition: .4s ease-in;
+  fill: transparent;
+  stroke: #fff; }
+
+svg g path.icon-svg:hover, svg g path.icon-svg:active {
+  stroke: #0288d1;
+  fill: #0288d1;
+  -webkit-transition: .4s ease-in;
+  -o-transition: .4s ease-in;
+  transition: .4s ease-in; }

@@ -1,0 +1,44 @@
+/* general */
+body {
+  font-family: 'Lato';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700!important;
+  font-family: 'Montserrat'!important;
+}
+
+.container {
+  width: 100%!important;
+}
+
+.row{
+  margin-right: -15px;
+    margin-left: -15px;
+}
+
+section {
+  padding: 3rem 0;
+}
+
+
+.card {
+  position: relative;
+/*   margin: .5rem 0 1rem 0; */
+  background-color: #fff;
+  /* -webkit-transition: -webkit-box-shadow .25s; */
+  /* transition: -webkit-box-shadow .25s; */
+  /* transition: box-shadow .25s; */
+  transition: box-shadow .25s, -webkit-box-shadow .25s;
+  border-radius: 2px;
+}
+
+
+.point{
+  cursor: pointer;
+}

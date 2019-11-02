@@ -1,0 +1,10 @@
+@media (min-width: 992px) {
+  .social-button {
+    display: none; } }
+
+.red.shadows {
+  background: -webkit-linear-gradient(315deg, #ff4e6f, #fb9168);
+  background: -o-linear-gradient(315deg, #ff4e6f, #fb9168);
+  background: linear-gradient(135deg, #ff4e6f, #fb9168);
+  -webkit-box-shadow: rgba(255, 78, 111, 0.5) 0px 4px 24px;
+  box-shadow: rgba(255, 78, 111, 0.5) 0px 4px 24px; }

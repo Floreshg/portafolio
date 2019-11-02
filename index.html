@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="es-pe">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link rel="icon" href="assets/img/icono.ico">
+  <title>George Flores | Front-end Developer Jr </title>
+  <meta name="keywords" content="programador,web,front-end">
+  <meta name="description" content="George Flores | Front-end Developer Jr">
+  <meta name="copyright" content="George Flores">
+  <meta name="author" content="George Flores">
+  <meta name="theme-color" content="#16222A">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/css/mdb.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.10.2/css/pro.min.css">
+
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css"
+    integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css" /> -->
+  <!-- <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css"> -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/slick/slick-theme.css">
+</head>
+
+<style>
+.success{
+  background-color: #43a047;
+}
+
+/* button.swal-button {
+    border-radius: 50px;
+    padding: 1em 3em;
+} */
+
+
+/* 
+.submit{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width:100px;
+  height:40px;
+  background-color:#111111;
+  border:2px solid #FFFFFF;
+  border-radius:10px;
+  color:#FFFFFF;
+  font-size:17px;
+  cursor:pointer !important;
+  outline:none;
+} */
+
+/* .submit:hover{
+  background-color:#222222;
+} */
+ .loading{
+  font-size:0;
+  width:30px;
+  height:30px;
+  margin-top:5px!important;
+  border-radius:15px!important;
+  padding:0;
+  border:3px solid #43a047;
+  border-bottom:3px solid #43a047;
+  border-left:3px solid transparent;
+  background-color:transparent !important;
+  animation-name: rotateAnimation;
+  -webkit-animation-name: wk-rotateAnimation;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+} 
+
+@keyframes rotateAnimation {
+    0%   {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+@-webkit-keyframes wk-rotateAnimation {
+    0%   {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(360deg);}
+}
+/* 
+.fa{
+  color:#ffffff;
+  font-size:18px !important;
+  position:absolute;
+  left:50%;
+  top:50%;
+  margin-left:-9px;
+  margin-top:-9px;
+  -webkit-transform:scaleX(0) !important;
+  transform:scaleX(0) !important;
+} */
+
+/* .finish{
+  -webkit-transform:scaleX(1) !important;
+  transform:scaleX(1) !important;
+} */
+/* .hide-loading{
+  opacity:0;
+  -webkit-transform: rotate(0deg) !important;
+  transform: rotate(0deg) !important;
+  -webkit-transform:scale(0) !important;
+  transform:scale(0) !important;
+} */
+</style>
+
+<body>
+  <noscript>
+    <strong>We're sorry but proyecto-02 doesn't work properly without JavaScript enabled. Please enable it to
+      continue.</strong>
+  </noscript>
+
+
+  <div id="app" v-cloak>
+
+   
+    <div class="navigation" id="top">
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg navbar-bxs bg-nav fixed-top text-uppercase  py-2 px-lg-3  px-xs-0" id="mainNav">
+            <a class="navbar-brand js-scroll-trigger" href="#top"><svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" width="4rem" height="4rem" version="1.1" viewBox="0 0 500.00001 500.00001">
+              <g transform="translate(0 -552.36)">
+               <path class="icon-svg"  d="m250 571.78 199.69 115.29-1e-5 230.58-199.69 115.29-199.69-115.29 7e-6 -230.58z" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="18.446"/>
+               <g class="icon-svg" transform="translate(0 .020371)" fill="#fff" fill-rule="evenodd" shape-rendering="auto">
+                <path d="m185.61 740.19a9.9393 9.9393 0 0 0 -6.832 3.0059l-51.805 51.805a9.9393 9.9393 0 0 0 0 14.055l51.805 51.805a9.9393 9.9393 0 1 0 14.055 -14.055l-44.775-44.777 44.775-44.777a9.9393 9.9393 0 0 0 -7.2226 -17.061z" color="#000000" color-rendering="auto" image-rendering="auto" solid-color="#000000" style="block-progression:tb;isolation:auto;mix-blend-mode:normal;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
+                <path d="m314.09 740.19a9.9393 9.9393 0 0 0 -6.9238 17.066l44.775 44.777-44.775 44.777a9.9393 9.9393 0 1 0 14.055 14.055l51.805-51.805a9.9393 9.9393 0 0 0 0 -14.055l-51.805-51.805a9.9393 9.9393 0 0 0 -7.1309 -3.0117z" color="#000000" color-rendering="auto" image-rendering="auto" solid-color="#000000" style="block-progression:tb;isolation:auto;mix-blend-mode:normal;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
+                <path d="m262.01 724.5a9.9393 9.9393 0 0 0 -9.6406 8.0742l-27.861 135.57a9.9393 9.9393 0 1 0 19.471 4.002l27.861-135.57a9.9393 9.9393 0 0 0 -9.8301 -12.076z" color="#000000" color-rendering="auto" image-rendering="auto" solid-color="#000000" style="block-progression:tb;isolation:auto;mix-blend-mode:normal;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
+               </g>
+              </g>
+             </svg></a>
+            <button class="navbar-toggler navbar-toggler-right light-blue waves-effect text-white rounded" type="button"
+              data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fas fa-bars fa-2x"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item mx-0 mx-lg-1" v-for="nav of navs" :key="nav.id">
+                  <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                    v-bind:href="nav.url">{{nav.title}}</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="header">
+      <header class="masthead min-vh-100 text-white text-center bg-img bg-head">
+        <div class="container">
+
+          <div data-aos="fade-up">
+            <!--<img class="img-fluid mb-5 d-block mx-auto" src="./assets/img/profile.png" alt=""> -->
+            <!-- <h1 class="text-uppercase mb-0 wow fadeInDown ">{{title}}</h1> -->
+            <h1 class="text-uppercase mb-0 wow fadeInDown ">{{saludo}}</h1>
+
+            <!-- <h2 class="font-weight-light mb-0 wow fadeInDown">{{description}}</h2> -->
+            <!-- <h2 class="font-weight-light mb-0 wow fadeInDown">{{description}}</h2> -->
+
+            <div class="console-container">
+              <h1>{{texto}}<span id="text"></span>
+                <span id="console" class="console-underscore"></span>
+              </h1>
+
+            </div>
+          </div>
+
+        </div>
+      </header>
+    </div>
+
+
+
+
+    <div id="section">
+      <section class="bg-about text-white " id="about">
+        <div class="container" data-aos="fade-up">
+          <div class="">         
+          <div class="card col-lg-6 mx-auto bg-transparent p-3">
+            <h2 class="text-center text-uppercase wow fadeInDown" id="about-title">{{about}}</h2>
+            <div class="row">
+              <div class="col-12 ml-auto">
+                <p class="lead wow fadeInDown">{{descriptionabout}}
+                </p>
+              </div>
+              <div class="col-12 mr-auto">
+                <p class="lead wow fadeInDown">{{descriptionabout2}}
+                </p>
+              </div>
+            </div>
+            <div class="text-center">
+              <button class="btn waves-effect btn-shadow waves-light btn-large orange darken-1 btn-rounded"
+                data-toggle="modal" data-target=".bd-example-modal-xl"><i class="fal fa-file-alt fa-2x"></i> CV
+                <!-- <a class="btn waves-effect btn-shadow waves-light btn-large orange darken-1 rounded" href="#modal" ><i class="large material-icons right">picture_as_pdf</i> CV  -->
+                </a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+
+
+      <!-- Modal -->
+      <!-- <div class="modal fade bd-example-modal-lg" id="modalCV" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <iframe src="https://docs.google.com/document/d/e/2PACX-1vQYozMmK-fDj1dEuMd-8Jw46Y8MLsHCwBdMEzEHTUMyqCZgp6bvf8YMpJFN0rFUrg/pub?embedded=true"></iframe>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+      <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <iframe width="100%" height="100%"
+                src="https://docs.google.com/document/d/e/2PACX-1vQYozMmK-fDj1dEuMd-8Jw46Y8MLsHCwBdMEzEHTUMyqCZgp6bvf8YMpJFN0rFUrg/pub?embedded=true"></iframe>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <!-- 
+
+      <section id="portafolio" class="grey lighten-4">
+        <div class="container">
+          <h2 class="text-center text-uppercase text-black mb-5">{{titleportafolio}}</h2>
+          <div class="row">
+
+            <div class="col-lg-4 col-md-4 col-sm-6 col-11 mx-auto" v-for="portafolio of portafolios" :key="portafolio.id"
+              data-aos="zoom-in">
+              <div class="card">
+                <div class="card-image">
+                  <img v-bind:src="portafolio.picture" v-bind:alt="portafolio.alt" class="img-fluid activator">
+                 
+                  <a class="btn-floating btn-large btn-shadow halfway-right waves-effect waves-light transparent activator"><i
+                      class="material-icons">more_vert</i></a>
+                </div>
+       
+                <div class="card-reveal blue-grey darken-3 text-white">
+                  <span class="card-title">{{portafolio.title}}<i class="material-icons right text-white">close</i></span>
+                  <p>{{portafolio.text}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <section id="portafolio" class="grey lighten-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 mx-auto">
+                <h2 class="text-center text-uppercase text-black mb-5">{{titleportafolio}}</h2>
+              <div class="responsive slider">
+                <div v-for="portafolio of portafolios" :key="portafolio.id" data-aos="fade-left">
+                  <div class="card">
+                    <div class="card-image">
+                      <img v-bind:src="portafolio.picture" v-bind:alt="portafolio.alt" class="img-fluid activator point">
+                      <!-- <a class="btn-floating btn-large btn-shadow halfway-right waves-effect waves-light transparent activator"><i
+                                  class="material-icons">more_vert</i></a> -->
+                    </div>
+                    <!-- 
+                      <div class="card-content mx-auto">
+                      <span class="card-title activator grey-text text-darken-4">Card Title</span>
+                      <button
+                        class="btn-floating btn-sm btn-secondary waves-effect waves-light  purple darken-1 activator d-block mx-auto "
+                        data-dismiss="modal" aria-label="Close">
+                        <i class="fal fa-info-circle"></i>
+                      </button>
+                    </div>
+                   -->
+
+                    <div class="card-reveal blue-grey darken-3 text-white">
+                      <span class="card-title">{{portafolio.title}}
+                        <i class="material-icons right text-white">close</i>
+                      </span>
+                      <p>{{portafolio.text}}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- 
+      <div class="scene scene--card">
+        <div class="card">
+          <div class="card__face card__face--front">front</div>
+          <div class="card__face card__face--back">back</div>
+        </div>
+      </div> -->
+
+      <section id="contact" class="mb-0 grey lighten-4">
+        <div class="container" data-aos="fade-down">
+          <div class="row">
+            <div class="col-lg-6 col-md-9 col-sm-11 col-xs-12 mx-auto">
+              <div class="card p-2">
+                <h2 class="text-center text-uppercase text-secondary mb-3 mt-5">{{titlecontact}}</h2>
+                <div class="card-body p-4">
+                  <form id="formValidate" method="post">
+                    <div class="md-form" v-for="(form,index) of forms" :key="(form.id,index)">
+                      <i class="material-icons prefix">{{form.iconMaterial}}</i>
+                      <label :for="form.for">{{form.nameLabel}}</label>
+                      <input :id="form.id" :name="form.nameInput" :type="form.type" :class="form.class">
+                    </div>
+                    <div class="md-form">
+                      <i class="material-icons prefix">mode_edit</i>
+                      <label for="mensaje">Mensaje</label>
+                      <textarea id="mensaje" name="mensaje" class="form-control md-textarea"></textarea>
+                    </div>
+                    <div class="text-center">
+                      <button id="btnsend" class="btn  btn-large btn-shadow btn-rounded waves-effect waves-light mx-auto success submit" type="submit" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Enviando">Enviar
+                        <i class="fal fa-paper-plane"></i>
+                      </button>
+                      <span class="mostrar"></span>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-color text-center pt-3 pb-3">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 mb-2 mb-lg-0 mx-auto">
+                <h5 class="text-uppercase mb-4">{{titlefooter}}</h5>
+                <ul class="list-inline mb-0">
+                  <li class="list-inline-item rollIn animated" v-for="social of sociales" :key="social.id">
+                    <a :class="['btn','btn-large','btn-shadow','waves-effect', 'waves-light', 'btn-floating', social.classSocial]"
+                      :href="social.href" target="_blank">
+                      <i :class="['fab', social.iconSocial]"></i>{{social.name}}</a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright py-3 text-center text-white">
+          <div class="container">
+            <small>Created by George Flores <span id="anio"></span> Lima - Perú</small>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+    <div class="fixed-action-btn social-button">
+      <a class="btn btn-small btn-floating green waves-effect waves-light btn-shadow">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <ul class="list-unstyled">
+       <!--  <li><a class="btn-floating red waves-effect waves-light"><i class="fas fa-star"></i></a></li>
+        <li><a class="btn-floating yellow darken-1 waves-effect waves-light"><i class="fas fa-user"></i></a></li>
+        <li><a class="btn-floating green waves-effect waves-light"><i class="fas fa-envelope"></i></a></li>
+        <li><a class="btn-floating blue waves-effect waves-light"><i class="fas fa-shopping-cart"></i></a></li> -->
+      </ul>
+    </div>
+
+
+    
+<!-- 
+    <div class="social-button fixed-action-btn">
+      <a class="btn-floating btn-large waves-effect waves-light red btn-shadow shadows">
+        <i class="large material-icons">share</i>
+      </a>
+      <ul>
+        <li v-for="social of sociales" :key="social.id">
+          <a :class="['btn-shadow','waves-effect', 'waves-light','btn-floating',social.classSocial]" :href="social.href"
+            target="_blank"> <i :class="['fab', social.iconSocial]"></i>{{social.name}}</a></li>
+       <li><a class="btn-floating linkedin"><i class="fab fa-linkedin-in"></i>linkedin</a></li>
+                
+                        <li><a class="btn-floating github"><i class="fab fa-github"></i>github</a></li> 
+      </ul>
+    </div> -->
+
+   
+
+
+  </div> <!-- final -->
+
+
+ <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script> 
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> -->
+
+  <!-- JQuery -->
+  <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
+  </script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/js/mdb.min.js"></script>
+
+
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  <script src="assets/js/jquery.easing.min.js"></script>
+  <script src="assets/js/jquery.validate.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <!-- AniJS Core File -->
+  <script src="assets/js/anijs/anijs.js"></script>
+  <!-- ScrollReveal Helper -->
+  <!-- <script src="assets/js/anijs/helpers/scrollreveal/anijs-helper-scrollreveal-min.js"></script> -->
+
+
+  <!-- firebase -->
+
+  <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-firestore.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.5.1/vue-resource.min.js"></script>
+
+  
+  <script src="assets/js/VueScript.js"></script>
+
+
+  <!-- <script src="assets/js/sweetalert.js"></script> -->
+  <script src="assets/js/mail.js"></script>
+  <script src="assets/js/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script src="assets/js/script.js"></script>
+  <!-- 
+
+  <script>
+ $(document).ready(function(){
+    $('.modal').modal();
+  });
+  </script> -->
+
+ <!--  <script>
+    $(document).ready(function () {
+      $('.fixed-action-btn').unbind('click');
+    });
+
+    function rotateCard(btn) {
+      var $card = $(btn).closest('.card-container');
+      console.log($card);
+      if ($card.hasClass('hover')) {
+        $card.removeClass('hover');
+      } else {
+        $card.addClass('hover');
+      }
+    }
+  </script> -->
+</body>
+
+</html>

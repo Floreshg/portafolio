@@ -1,0 +1,39 @@
+
+/* footer */
+
+ $github : #444444!important;
+ $google: #dd4b39!important;
+ $linkedin: #007bb6!important; 
+
+
+ a{
+  &.github {
+    background-color: $github;
+    
+  }
+  
+  &.google {
+    background-color: $google;
+   
+  }
+  
+  &.linkedin {
+    background-color:$linkedin ;
+   
+  }
+ 
+ }
+
+.footer-color {
+  background-color: #2C3E50;
+  color: #fff;
+}
+
+.copyright {
+  background-color: #1a252f;
+}
+.btn-floating{
+  :hover{
+    background-color: none;
+  }
+}
