@@ -6,8 +6,8 @@ $(function () {
 
 			 let btnEnviar = $("#btnsend");
 			$.ajax({
-				url: URLprotocol+"//"+URLdomain+"/sendmail.php", 
-				/* url: 'sendmail.php', */
+				/* url: URLprotocol+"//"+URLdomain+"/sendmail.php", */
+				url: './sendmail.php',
 				type: 'POST',
 				data: $("#formValidate").serialize(),
 				
@@ -84,8 +84,8 @@ $(function () {
 		$('#formValidate').submit(function () {
 
 			$.ajax({
-				url: URLprotocol+"//"+URLdomain+"/sendcliente.php", 
-			/*	url: 'sendcliente.php', */
+			/*	url: URLprotocol+"//"+URLdomain+"/sendcliente.php", */
+				url: './sendcliente.php', 
 				type: 'POST',
 				data: $("#formValidate").serialize(),
 				success: function (data) {
