@@ -125,13 +125,13 @@ const app = new Vue({
     //social
     sociales: [{
         name: 'google',
-        href: 'mailto:floreshg6@gmail.com',
+        href: 'mailto:correo@gmail.com',
         iconSocial: 'fa-google',
         classSocial: 'google'
       },
       {
         name: 'likedin',
-        href: 'https://www.linkedin.com/in/george-flores-honorio',
+        href: 'https://www.linkedin.com/',
         iconSocial: 'fa-linkedin-in',
         classSocial: 'linkedin'
       },
